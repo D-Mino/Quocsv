@@ -3,7 +3,7 @@ var Data = require('../models/data');
 module.exports = {
 	index: function (req, res) {
 		res.setHeader('Content-Type', 'text/html');
-		res.setHeader('cache-control', 'privte no-cache no-store');
+		//res.setHeader('cache-control', 'privte no-cache no-store');
 		res.render('index');
 	},
 	get: function (req, res) {
